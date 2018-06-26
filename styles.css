@@ -1,10 +1,11 @@
 
 .link{	
 	color: #ffffff;
-    font-size: 13px;
-    text-transform: uppercase;
-    text-decoration: none;
-     }
+  font-size: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+       }
 
  .container {
  	display: flex;
@@ -21,7 +22,8 @@
 margin-top: 30px;
 margin-left: 30px;
 }
- .point {
+
+.point {
   list-style: none;
  }
 
@@ -38,12 +40,14 @@ font-size: 40px;
 color: #ffffff;
 margin-top: 400px;
 margin-left: 80px;
+text-transform: uppercase;
  }
 
  .subtitle{
   color: #ffffff;
   font-size: 15px;
   margin-left: 200px;
+  text-transform: uppercase;
 }
 
 .main{
@@ -52,12 +56,14 @@ margin-left: 80px;
 
 .icons {
 	display: flex;
-    justify-content: space-between;
-    width: 750px;
-    list-style: none;
-    color: #ffffff;
-    margin-left: 60px;
-}
+  justify-content: space-between;
+  width: 1150px;
+  margin: 0 auto;
+  list-style: none;
+  color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+   }
 
 .icons_title{
   font-size: 24px;
@@ -76,29 +82,33 @@ margin-left: 80px;
 .small_title {
 	color: #fd634e;
 	font-size: 14px;
+  text-transform: uppercase;
 }
 
 .display {
   display: flex;
   justify-content: space-between;
-  margin-left: 150px; 
-  margin-right: 150px
+  width: 1150px;
+  margin: 0 auto;
 }
 
 .big_title {
   color: #a2ca28;
   font-size: 35px;
+  text-transform: uppercase;
    }
 
 .white_block {
-width: 800px;
+width: 400px;
 height: 394px;
 background-color: #ffffff;
+text-align: center;
     
 }
 
 .text_in_section {
 font-size: 14px;
+color: #656e74;
 
 }
 
@@ -126,9 +136,9 @@ font-size: 14px;
 }
 
 .text-hover{
-  position: absolute;
   top: 1100px;
   left: 1200px;
+  position: absolute;
 }
 
 .input {
@@ -152,14 +162,24 @@ border-radius: 3px;
 background-color: #a2ca28;
 }
 
- .footer {
-display: flex;
-justify-content: space-between;
+.footer{
 background-color: #0d1119;
-padding-left: : : 120px;
-padding-top: : 100px;
+}
+
+ .footer-container{
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 120px;
+padding-top: 100px;
 margin: 0 auto;
- }
+}
+
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+   } 
 
   .social-icon1{
   background-color: #2e3192;
@@ -170,7 +190,7 @@ margin: 0 auto;
   position: relative;
 }
 
-.social-icon:before{
+.social-icon1:before{
   content: '';
   background-image: url('./images/fb.svg');
   background-size: 20px 20px;
@@ -191,7 +211,7 @@ margin: 0 auto;
   position: relative;
 }
 
-.social-icon:before{
+.social-icon2:before{
   content: '';
   background-image: url('./images/tw.svg');
   background-size: 20px 20px;
@@ -212,7 +232,7 @@ margin: 0 auto;
   position: relative;
 }
 
-.social-icon:before{
+.social-icon3:before{
   content: '';
   background-image: url('./images/yt.svg');
   background-size: 20px 20px;
@@ -234,7 +254,7 @@ margin: 0 auto;
   position: relative;
 }
 
-.social-icon:before{
+.social-icon4:before{
   content: '';
   background-image: url('./images/In.svg');
   background-size: 20px 20px;

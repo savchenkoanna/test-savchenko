@@ -1,22 +1,80 @@
 @font-face {
   src: './fonts/AvenirNextCyr-Regular/tff';
-  font-family: AvenirNextRegular;
+  font-family: AvenirNextRegular; sans-serif;
   font-weight: 400;
 }
 
 @font-face {
   src: './fonts/AvenirNextCyr-Light/tff';
-  font-family: AvenirNext;
+  font-family: AvenirNext; sans-serif;
   font-weight: 100;
 }
 
+@font-face {
+  src: './fonts/myriadpro-regular/tff';
+  font-family: Myriad Pro; sans-serif;
+  font-weight: 400;
+}
+
+@font-face {
+  src: './fonts/OpenSans-Regular/tff';
+  font-family: OpenSans; sans-serif;
+  font-weight: 400;
+}
+
+@font-face {
+  src: './fonts/ProximaNova-Reg/tff';
+  font-family: ProximaNova; sans-serif;
+  font-weight: 400;
+}
+
+@font-face {
+  src: './fonts/Montserrat-Regular/tff';
+  font-family: Montserrat-Regular; sans-serif;
+  font-weight: 400;
+}
 
 .title {
-	font-family: AvenirNext;
+	font-family: AvenirNext; sans-serif;
 	font-weight: 100;
 }
 
 .subtitle {
-	font-family: AvenirNext;
+	font-family: AvenirNext; sans-serif;
 	font-weight: 100;
+}
+
+.link{	
+font-family: "Myriad Pro"; sans-serif;
+font-weight: 400;
+}
+
+.icons_title {
+font-family: "Open Sans"; sans-serif;
+font-weight: 400;
+}
+
+.icons_text{
+font-family: "Proxima Nova"; sans-serif;
+font-weight: 400;
+}
+
+.explore_more{
+font-family: "Proxima Nova"; sans-serif;
+font-weight: 400;
+}
+
+.small_title {
+font-family: Montserrat; sans-serif;
+font-weight: 400;
+}
+
+.big_title {
+font-family: "Open Sans"; sans-serif;
+font-weight: 300;
+}
+
+.text_in_section {
+font-family: "Open Sans"; sans-serif;
+font-weight: 400;
 }
