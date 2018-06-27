@@ -1,0 +1,269 @@
+
+.link{	
+	color: #ffffff;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+       }
+
+ .container {
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+
+ .menu {
+ 	display: flex;
+  justify-content: space-between;
+  width: 500px;
+  list-style: none;
+ }
+.logo {
+margin-top: 30px;
+margin-left: 30px;
+}
+
+.point {
+  list-style: none;
+ }
+
+ .header {
+ 	background-image: url('./images/background.jpg');
+ 	height: 800px;
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+
+ }
+
+ .title {
+font-size: 40px;
+color: #ffffff;
+margin-top: 400px;
+margin-left: 80px;
+text-transform: uppercase;
+ }
+
+ .subtitle{
+  color: #ffffff;
+  font-size: 15px;
+  margin-left: 200px;
+  text-transform: uppercase;
+}
+
+.main{
+  background: #a2ca28;
+}
+
+.icons {
+	display: flex;
+  justify-content: space-between;
+  width: 1150px;
+  margin: 0 auto;
+  list-style: none;
+  color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+   }
+
+.icons_title{
+  font-size: 24px;
+}
+
+.icons_text{
+  font-size: 14px;
+}
+
+.explore_more{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.small_title {
+	color: #fd634e;
+	font-size: 14px;
+  text-transform: uppercase;
+}
+
+.display {
+  display: flex;
+  justify-content: space-between;
+  width: 1150px;
+  margin: 0 auto;
+}
+
+.big_title {
+  color: #a2ca28;
+  font-size: 35px;
+  text-transform: uppercase;
+   }
+
+.white_block {
+width: 400px;
+height: 394px;
+background-color: #ffffff;
+text-align: center;
+    
+}
+
+.text_in_section {
+font-size: 14px;
+color: #656e74;
+
+}
+
+.readmore_in_section {
+color: #a2ca28;
+font-size: 14px;
+
+}
+
+.psevdo{
+  background-image: url('./images/img1.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 794px;
+  height: 394px;
+  position: relative;
+}
+
+.psevdo:before{
+  content: '';
+  display: block;
+  background: rgba(0,0,0,0.5);
+  width: 794px;
+  height: 394px;
+}
+
+.text-hover{
+  text-align: center;
+  top: 100px;
+  left: 270px;
+  position: absolute;
+}
+
+.input {
+width: 201px;
+height: 49px;
+border-radius: 2px;
+background-color: #ffffff;
+}
+
+.input2 {
+width: 340px;
+height: 49px;
+border-radius: 2px;
+background-color: #ffffff;
+}
+
+.buttom {
+width: 182px;
+height: 49px;
+border-radius: 3px;
+background-color: #a2ca28;
+}
+
+.footer{
+background-color: #0d1119;
+}
+
+ .footer-container{
+color: #fff;
+display: flex;
+justify-content: space-between;
+padding-top: 50px;
+width: 1150px;
+margin: 0 auto;
+}
+
+.footer-menu{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 300px;
+       } 
+
+  .social-icon1{
+  background-color: #2e3192;
+  width: 50px;
+  height: 50px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+}
+
+.social-icon1:before{
+  content: '';
+  background-image: url('./images/fb.svg');
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+  .social-icon2{
+  background: #00aeef;
+  width: 50px;
+  height: 50px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+}
+
+.social-icon2:before{
+  content: '';
+  background-image: url('./images/tw.svg');
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+  .social-icon3{
+  background-color: #ed3123;
+  width: 50px;
+  height: 50px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+}
+
+.social-icon3:before{
+  content: '';
+  background-image: url('./images/yt.svg');
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+
+  .social-icon4{
+ background-color: #171a8f;
+  width: 50px;
+  height: 50px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+}
+
+.social-icon4:before{
+  content: '';
+  background-image: url('./images/ln.svg');
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
