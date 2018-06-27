@@ -136,8 +136,9 @@ font-size: 14px;
 }
 
 .text-hover{
-  top: 1100px;
-  left: 1200px;
+  text-align: center;
+  top: 100px;
+  left: 270px;
   position: absolute;
 }
 
@@ -167,19 +168,20 @@ background-color: #0d1119;
 }
 
  .footer-container{
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-  padding-left: 120px;
-padding-top: 100px;
+color: #fff;
+display: flex;
+justify-content: space-between;
+padding-top: 50px;
+width: 1150px;
 margin: 0 auto;
 }
 
 .footer-menu{
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-   } 
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 300px;
+       } 
 
   .social-icon1{
   background-color: #2e3192;
@@ -256,7 +258,7 @@ margin: 0 auto;
 
 .social-icon4:before{
   content: '';
-  background-image: url('./images/In.svg');
+  background-image: url('./images/ln.svg');
   background-size: 20px 20px;
   width: 20px;
   height: 20px;
